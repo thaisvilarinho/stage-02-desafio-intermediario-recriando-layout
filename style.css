@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-base-white: #ffffff;
+  --color-base-pink: #ee24ff;
+  --color-base-gray-100: #eceff2;
+  --color-base-gray-600: #828282;
+  --color-base-gray-900: #3f3d56;
+}
+
+body {
+  font-size: 1.6rem;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+#app {
+  height: 100vh;
+}
+
+main,footer {
+  margin: 0 auto;
+  max-width: 62rem;
+}
+
+main h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+
+  color: var(--color-base-gray-900);
+
+  margin: 3.2rem 0 1.6rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+span.highlight {
+  color: var(--color-base-pink);
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  color: var(--color-base-gray-600);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.4rem;
+}
+
+.line {
+  width: 40rem;
+  border: 1px solid var(--color-base-gray-100);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  padding: 1.6rem;
+  gap: 4.2rem
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;  
+  color: var(--color-base-gray-900);
+}
+
+ul li a:hover{
+  color: var(--color-base-pink);
+}
+
+
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  object-fit: cover;
+}
